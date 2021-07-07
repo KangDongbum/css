@@ -1,0 +1,92 @@
+전환 효과
+사이즈나, 색상, 위치등이 변화 될때 효과
+(애니메이션 효과)
+
+transition
+	- transition-property - CSS속성
+	- transition-duration - 전환효과 진행 시간
+	- transition-timing-function - 애니메이션 효과
+		ease(기본값)
+			ease-in, ease-out, ease-in-out
+		linear - 일정속도로 전환
+		
+	- transition-delay - 전화효과가 적용되기 전 대기 시간
+	
+	축약
+	transition: CSS 속성 duration(전환효과 시간), 애니메이션 효과, delay(전환 대기 시간)
+	
+	
+미디어 쿼리
+	- 장비 화면 사이즈에 따라서 적용되는 CCS를 구별 해주는 구간
+@media all and (max-width:구간px){
+	// 구간에 따라서 적용될 CSS
+}
+<meta name='viewport' content='user-scalable=yes, inital-scale=1.0,
+maximum-scale=1.0, minimum-scale=1.0, width=device-width'>
+
+
+
+user-saalable=yes|no
+	- 사용자가 화면 확대 축소를 할수 있는지 여부(yes-가능, no-불가)
+initial-scale=1.0
+	- 처음 로딩 사이즈(1 - 장비 사이즈 동일, 1이상 - 확대, 1미만 - 축소)
+maximum-scale=5.0
+	- 사용자가 최대한 확대할 수 있는 사이즈 비율(1이상 - 확대 가능)
+minimum-scale=0.5
+	- 사용자가 최대한 축소할 수 있는 사이즈 비율(1이하 - 축소 가능)
+width=device-width
+	- device-width - 화면의 장비의 물리적 너비가 width
+	- 없다면 해상도 기준
+반응형 웹
+
+text-decoration
+	- none - 기본값
+	- underline - 밑줄
+	- italic - 이탤릭체(기울임체)
+	
+list-style
+	ul 태그 li의 스타일
+		dist, circle, square
+		
+		none -> 스타일 없음
+cursor
+	-마우스를 올렸을때 화살표 모양
+	pointer -> 손락락 모양
+	hand
+
+border. 1px solid red; // 모든 방향
+	- border - top 상단 경계선
+	- border - bottoom 하단 경계선
+	- border - left		왼쪽	경계선
+	-border - rigft		오른쪽 경계선
+	
+height - 높이
+	min-height - 최소 높이
+	max-height - 초대 높이
+width - 너비
+	min-width - 최소 너비
+	max-height - 최대 너비
+	
+margin
+	- auto (양 방향 균등 여백)
+	- margin: 0 auto;
+		(좌우로 균등 여백 - 가운데 정렬)
+		
+<aside class='on' id='menu'></aside>
+aside.on {
+	
+}
+
+aside#menu {
+	
+}
+
+text-transform 
+		- uppercase (소문자 -> 대문자로)
+		- lowercase (대문자 -> 소문자로)
+		
+vertical-align
+	- 수직 정렬
+	- top
+	- middle
+	- bottom
