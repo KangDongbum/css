@@ -90,3 +90,17 @@ vertical-align
 	- top
 	- middle
 	- bottom
+
+opacity
+	- 투명도(0~1)
+		0에 가까울수록 투명, 1에 가까울수록 불투명
+box-shadow
+	- 요소에서 그림자 효과
+	좌->우, 위->아래, 번짐 정도, 색상
+	box-shadow: 0px 2px 4px #000000;
+
+word-break
+		- break-all: 텍스트 자동 줄 개행
+		
+background-size
+				- cover : 배경 이미지 영역 자동 맞춤
