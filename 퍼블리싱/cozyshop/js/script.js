@@ -13,7 +13,7 @@ var swiper = new Swiper(".main_banner .mySwiper", {
         slidesPerView: 5,
         spaceBetween: 0,
 		 navigation: {
-          nextEl: ".tv_movier .next",
+          nextEl: ".tv_movie .next",
           prevEl: ".tv_movie .prev",
         },
         pagination: {

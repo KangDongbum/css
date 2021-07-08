@@ -462,16 +462,17 @@ footer .customer_service_info .btn{
 	width: 89px;
 	height: 19px;
 	text-align: center;
-	border: 1ps solid #58595b;
+	border: 1px solid #58595b;
 	color: #58595b;
 	font-size: 12px;
 	letter-spacing: -1px;
-	line-height: 17px;	
+	line-height: 17px;
+	
 }
 footer .customer_service_info .btn:hover{
 	background-color: #58595b;
 	color: #ffffff;
 }
-footer .customer_service_info .box3 .bth:first-child{
+footer .customer_service_info .box3 .btn:first-child{
 	margin-bottom: 3px;
 }
