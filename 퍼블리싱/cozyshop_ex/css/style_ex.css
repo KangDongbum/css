@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+
+*{
+	font-family: 'Noto Sans KR', sans-serif;
+	color:#000000;
+	box-sizing: border-box;
+}
+html{
+	font-size: 13px;
+}
+a{
+	text-decoration:none;
+}
+body{
+	margin: 0;
+}
+ul{
+	list-style: none;
+	margin: 0; 
+	padding: 0;
+}
+.layout_width{
+	width:1200px;
+	margin: 0 auto;
+}
+.main_top{
+	height: 30px;
+	background-color:#f9f9f9;
+	text-align: right;
+}
+.main_top a{
+	font-size: 12px;
+	letter-spacing: -0.24px;
+	color: #333333;
+	padding: 0 10px 0 10px;
+	line-height:30px;
+	position: relative;
+	display: inline-block;
+}
+
+/** 상단 이이콘 **/
+.icon_top {
+	height: 30px;
+	width: 1900px;	
+}
+.icon_top .box{
+	width: calc(100% / 3);
+	float: left;
+	padding-top: 28px;
+}
+.icon_top .inner:after{
+	clear: left;
+	content: '';
+	display:block;
+}
+.icon_top .icon img{
+	vertical-align: top;
+}
+.icon_top .icon a:nth-child(1) img{
+	height: 62px;
+	position: relative;
+	top: 3px;
+}
+.icon_top .icon a:nth-child(2) img,
+.icon_top .icon a:nth-child(3) img{
+	height: 68px;
+}
+.icon_top .main_logo img{
+	height: 28px;
+}
+.icon_top .main_logo{
+	padding: 46px 0;
+	text-align: center;
+}
+.icon_top .main_search{
+	padding-top: 40px;
+}
+.icon_top .main_search input[type='image']{
+	height: 37px;
+	vertical-align: middle;
+}
+.icon_top .wrap{
+	width: 200px;
+	height: 38px;
+	border-bottom: 1px solid #222222;
+	float: right;
+}
+.icon_top .main_search:after{
+	clear: right;
+	content: '';
+	display:block;
+}
+.icon_top .main_search input[type='text']{
+	width: calc(100% - 27px);
+	border: 0;
+	position: relative;
+	top: 9px;
+}
+/** 상단 메뉴**/
+nav{
+	border-bottom: 1px solid black;
+	height: auto;
+}
+nav ul li{
+	float: left;
+	width: calc((100% - 50px) / 10);
+	text-align: center;
+
+}
+nav ul:after{
+	clear: left;
+	content: '';
+	display: block;
+}
+nav ul a{
+	display: block;
+	height: 45px;
+	font-size: 16px;
+	letter-spacing: -0.32px;
+	line-height:45px;
+}
+nav i{
+	font-size: 1.8rem;
+	vertical-align: middle;
+	position: relative;
+	top: 12px;
+	left: 20px;
+	cursor: pointer;
+}
+nev .more_menu{
+	width: 50px;
+	text-align:center;
+}
